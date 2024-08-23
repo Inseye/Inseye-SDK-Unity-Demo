@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/EntryScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Samples/InsEye Unity SDK/5.1.0/Calibration/CalibrationScene.unity
+    path: Assets/Samples/InsEye Unity SDK/5.3.0/Calibration/CalibrationScene.unity
     guid: da020e04d7990c24a947bc11fb1d241c
   - enabled: 1
     path: Assets/Scenes/NoAnimationsCalibrationScene.unity
