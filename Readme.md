@@ -11,9 +11,9 @@ This repository is part of Inseye Software Development Kit.
 By using content of this repository you agree to SDK [License](./LICENSE).
 
 # Requirements
-- Unity 2021.3.28f w with Android build support
+- Unity 2021.3.45f1 w with Android build support
 - (optionally) VR Headset
-- (optionally) Inseye Journey
+- (optionally) Inseye Loomi
 
 # Project tour
 After loading the project, open the entry scene in `Assets/Scene/EntryScene.unity`.

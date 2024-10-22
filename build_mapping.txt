@@ -1,0 +1,472 @@
+# compiler: R8
+# compiler_version: 4.0.52
+# min_api: 29
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.1"}
+# pg_map_id: e56bcd3
+# pg_map_hash: SHA-256 e56bcd3ef9359d105134f7c11fca0469c5df2f4a886c954ac79a38e2d2f7ec4b
+com.google.androidgamesdk.SwappyDisplayManager -> com.google.androidgamesdk.SwappyDisplayManager:
+    android.app.Activity -$$Nest$fgetmActivity(com.google.androidgamesdk.SwappyDisplayManager) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.androidgamesdk.b -> com.google.androidgamesdk.b:
+    void <init>(com.google.androidgamesdk.b-IA) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.androidgamesdk.b-IA -> a.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.google.androidgamesdk.d -> com.google.androidgamesdk.d:
+    void <init>(com.google.androidgamesdk.d-IA) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+com.google.androidgamesdk.d-IA -> a.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.inseye.shared.IByteSerializer -> b.a:
+com.inseye.shared.R$string -> b.b:
+    int service_package_name -> b
+    int service_class_name -> a
+com.inseye.shared.communication.ActionResult -> com.inseye.shared.communication.a:
+    boolean successful -> a
+    java.lang.String errorMessage -> b
+    com.inseye.shared.communication.ActionResult error(java.lang.String) -> a
+    void readFromParcel(android.os.Parcel) -> b
+    void setSuccessful() -> c
+    com.inseye.shared.communication.ActionResult success() -> d
+com.inseye.shared.communication.ActionResult$1 -> com.inseye.shared.communication.a$a:
+    com.inseye.shared.communication.ActionResult createFromParcel(android.os.Parcel) -> a
+    com.inseye.shared.communication.ActionResult[] newArray(int) -> b
+com.inseye.shared.communication.BinaryStreamActionResult -> com.inseye.shared.communication.b:
+    java.lang.String errorMessage -> a
+    int binaryFormatDataVersion -> d
+    java.nio.ByteOrder byteOrder -> e
+    boolean success -> b
+    int port -> c
+com.inseye.shared.communication.BinaryStreamActionResult$1 -> com.inseye.shared.communication.b$a:
+    com.inseye.shared.communication.BinaryStreamActionResult createFromParcel(android.os.Parcel) -> a
+    com.inseye.shared.communication.BinaryStreamActionResult[] newArray(int) -> b
+com.inseye.shared.communication.CalibrationPoint -> com.inseye.shared.communication.c:
+    float y -> b
+    float x -> a
+    void readFromParcel(android.os.Parcel) -> a
+com.inseye.shared.communication.CalibrationPoint$1 -> com.inseye.shared.communication.c$a:
+    com.inseye.shared.communication.CalibrationPoint createFromParcel(android.os.Parcel) -> a
+    com.inseye.shared.communication.CalibrationPoint[] newArray(int) -> b
+com.inseye.shared.communication.CalibrationPointResponse -> com.inseye.shared.communication.d:
+    float y -> b
+    long displayStopMs -> d
+    float x -> a
+    long displayStartMs -> c
+com.inseye.shared.communication.CalibrationPointResponse$1 -> com.inseye.shared.communication.d$a:
+    com.inseye.shared.communication.CalibrationPointResponse createFromParcel(android.os.Parcel) -> a
+    com.inseye.shared.communication.CalibrationPointResponse[] newArray(int) -> b
+com.inseye.shared.communication.Eye -> com.inseye.shared.communication.e:
+    com.inseye.shared.communication.Eye BOTH -> b
+    com.inseye.shared.communication.Eye RIGHT -> d
+    com.inseye.shared.communication.Eye LEFT -> c
+    com.inseye.shared.communication.Eye[] $VALUES -> e
+    int value -> a
+    com.inseye.shared.communication.Eye[] $values() -> a
+com.inseye.shared.communication.Eye$1 -> com.inseye.shared.communication.e$a:
+    com.inseye.shared.communication.Eye createFromParcel(android.os.Parcel) -> a
+    com.inseye.shared.communication.Eye[] newArray(int) -> b
+com.inseye.shared.communication.IBuiltInCalibrationCallback -> com.inseye.shared.communication.f:
+com.inseye.shared.communication.IBuiltInCalibrationCallback$Stub -> com.inseye.shared.communication.f$a:
+    com.inseye.shared.communication.IBuiltInCalibrationCallback asInterface(android.os.IBinder) -> a
+com.inseye.shared.communication.IBuiltInCalibrationCallback$Stub$Proxy -> com.inseye.shared.communication.f$a$a:
+    android.os.IBinder mRemote -> a
+com.inseye.shared.communication.ICalibrationCallback -> com.inseye.shared.communication.g:
+com.inseye.shared.communication.ICalibrationCallback$Stub -> com.inseye.shared.communication.g$a:
+com.inseye.shared.communication.ICalibrationCallback$Stub$Proxy -> com.inseye.shared.communication.g$a$a:
+    android.os.IBinder mRemote -> a
+com.inseye.shared.communication.ICalibrationCallback$_Parcel -> com.inseye.shared.communication.g$b:
+    java.lang.Object access$000(android.os.Parcel,android.os.Parcelable$Creator) -> a
+    void access$100(android.os.Parcel,android.os.Parcelable,int) -> b
+    java.lang.Object readTypedObject(android.os.Parcel,android.os.Parcelable$Creator) -> c
+    void writeTypedObject(android.os.Parcel,android.os.Parcelable,int) -> d
+com.inseye.shared.communication.IEyetrackerEventListener -> com.inseye.shared.communication.h:
+com.inseye.shared.communication.IEyetrackerEventListener$Stub -> com.inseye.shared.communication.h$a:
+com.inseye.shared.communication.IEyetrackerEventListener$Stub$Proxy -> com.inseye.shared.communication.h$a$a:
+    android.os.IBinder mRemote -> a
+com.inseye.shared.communication.IEyetrackerEventListener$_Parcel -> com.inseye.shared.communication.h$b:
+    java.lang.Object access$000(android.os.Parcel,android.os.Parcelable$Creator) -> a
+    void access$100(android.os.Parcel,android.os.Parcelable,int) -> b
+    java.lang.Object readTypedObject(android.os.Parcel,android.os.Parcelable$Creator) -> c
+    void writeTypedObject(android.os.Parcel,android.os.Parcelable,int) -> d
+com.inseye.shared.communication.IServiceBuiltInCalibrationCallback -> com.inseye.shared.communication.i:
+com.inseye.shared.communication.IServiceBuiltInCalibrationCallback$Stub -> com.inseye.shared.communication.i$a:
+    com.inseye.shared.communication.IServiceBuiltInCalibrationCallback asInterface(android.os.IBinder) -> a
+com.inseye.shared.communication.IServiceBuiltInCalibrationCallback$Stub$Proxy -> com.inseye.shared.communication.i$a$a:
+    android.os.IBinder mRemote -> a
+com.inseye.shared.communication.IServiceCalibrationCallback -> com.inseye.shared.communication.j:
+com.inseye.shared.communication.IServiceCalibrationCallback$Stub -> com.inseye.shared.communication.j$a:
+    com.inseye.shared.communication.IServiceCalibrationCallback asInterface(android.os.IBinder) -> a
+com.inseye.shared.communication.IServiceCalibrationCallback$Stub$Proxy -> com.inseye.shared.communication.j$a$a:
+    android.os.IBinder mRemote -> a
+com.inseye.shared.communication.IServiceCalibrationCallback$_Parcel -> com.inseye.shared.communication.j$b:
+    java.lang.Object access$100(android.os.Parcel,android.os.Parcelable$Creator) -> a
+    java.lang.Object readTypedObject(android.os.Parcel,android.os.Parcelable$Creator) -> b
+com.inseye.shared.communication.ISharedService -> com.inseye.shared.communication.k:
+com.inseye.shared.communication.ISharedService$Stub -> com.inseye.shared.communication.k$a:
+com.inseye.shared.communication.ISharedService$Stub$Proxy -> com.inseye.shared.communication.k$a$a:
+    android.os.IBinder mRemote -> a
+com.inseye.shared.communication.ISharedService$_Parcel -> com.inseye.shared.communication.k$b:
+    void access$000(android.os.Parcel,android.os.Parcelable,int) -> a
+    java.lang.Object access$100(android.os.Parcel,android.os.Parcelable$Creator) -> b
+    java.lang.Object readTypedObject(android.os.Parcel,android.os.Parcelable$Creator) -> c
+    void writeTypedObject(android.os.Parcel,android.os.Parcelable,int) -> d
+com.inseye.shared.communication.IntActionResult -> com.inseye.shared.communication.l:
+    java.lang.String errorMessage -> a
+    boolean success -> b
+    int value -> c
+    com.inseye.shared.communication.IntActionResult success(int) -> a
+com.inseye.shared.communication.IntActionResult$1 -> com.inseye.shared.communication.l$a:
+    com.inseye.shared.communication.IntActionResult createFromParcel(android.os.Parcel) -> a
+    com.inseye.shared.communication.IntActionResult[] newArray(int) -> b
+com.inseye.shared.communication.StringActionResult -> com.inseye.shared.communication.m:
+    java.lang.String errorMessage -> a
+    java.lang.String value -> c
+    boolean success -> b
+com.inseye.shared.communication.StringActionResult$1 -> com.inseye.shared.communication.m$a:
+    com.inseye.shared.communication.StringActionResult createFromParcel(android.os.Parcel) -> a
+    com.inseye.shared.communication.StringActionResult[] newArray(int) -> b
+com.inseye.shared.communication.TrackerAvailability -> com.inseye.shared.communication.n:
+    com.inseye.shared.communication.TrackerAvailability Unknown -> i
+    com.inseye.shared.communication.TrackerAvailability[] valueArray -> j
+    com.inseye.shared.communication.TrackerAvailability Calibrating -> d
+    com.inseye.shared.communication.TrackerAvailability Disconnected -> c
+    com.inseye.shared.communication.TrackerAvailability Available -> b
+    com.inseye.shared.communication.TrackerAvailability[] $VALUES -> k
+    com.inseye.shared.communication.TrackerAvailability NotCalibrated -> h
+    com.inseye.shared.communication.TrackerAvailability Unavailable -> g
+    com.inseye.shared.communication.TrackerAvailability FirmwareUpdate -> f
+    int value -> a
+    com.inseye.shared.communication.TrackerAvailability RawData -> e
+    com.inseye.shared.communication.TrackerAvailability[] $values() -> a
+    com.inseye.shared.communication.TrackerAvailability[] access$000() -> b
+com.inseye.shared.communication.TrackerAvailability$1 -> com.inseye.shared.communication.n$a:
+    com.inseye.shared.communication.TrackerAvailability createFromParcel(android.os.Parcel) -> a
+    com.inseye.shared.communication.TrackerAvailability[] newArray(int) -> b
+com.inseye.shared.communication.Version -> com.inseye.shared.communication.o:
+    int minor -> b
+    int patch -> c
+    int major -> a
+    java.lang.String extra -> d
+    void readFromParcel(android.os.Parcel) -> a
+com.inseye.shared.communication.Version$1 -> com.inseye.shared.communication.o$a:
+    com.inseye.shared.communication.Version createFromParcel(android.os.Parcel) -> a
+    com.inseye.shared.communication.Version[] newArray(int) -> b
+com.inseye.shared.communication.VisibleFov -> com.inseye.shared.communication.p:
+    float vertical -> b
+    float horizontal -> a
+com.inseye.shared.communication.VisibleFov$1 -> com.inseye.shared.communication.p$a:
+    com.inseye.shared.communication.VisibleFov createFromParcel(android.os.Parcel) -> a
+    com.inseye.shared.communication.VisibleFov[] newArray(int) -> b
+com.inseye.shared.utils.ServiceConnectionIntentFactory -> c.a:
+    android.content.Intent CreateServiceConnectIntent(android.content.Context) -> a
+com.inseye.unitysdk.UnitySDK -> com.inseye.unitysdk.UnitySDK:
+    void $r8$lambda$EzFn4tY9q8-GImpyxCW8eapRCTA(android.content.ComponentName) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$J0Vi8QpeoKjTXoet5H_1hQ1-6Bk(android.content.ComponentName) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$JajlmXLGYCaCy89gz-Oothl8H68(android.content.ComponentName) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$K0CMeaSgVPMFUXEcnzOvF86qjOg(android.content.ComponentName) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$QuTquOPp23h0EQ5wxlNeaRztUJ4(android.content.ComponentName) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$Z3bIXpF1sMwSLfsfcwwyEa3IWTo(android.content.ComponentName,android.os.IBinder) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$ZO3iFT9SAl9EF2dGNQfsD3qLmPs(android.content.ComponentName) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$drm4QDmB2ef0GvFoXYO7MI4E9Ww(android.content.ComponentName) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$kjfzQSalAxRu-btysO5RCi5Mpp0(android.content.ComponentName,android.os.IBinder) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$kupjKC1NeEeG3VO4dL4vs0MbNb8(com.inseye.unitysdk.CalibrationStatus,com.inseye.unitysdk.CalibrationStatus) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+    void $r8$lambda$pVrli8L3DdrJOQm9_KNhw74_rps(android.content.ComponentName,android.os.IBinder) -> k
+      # {"id":"com.android.tools.r8.synthesized"}
+com.inseye.unitysdk.UnitySDK$$ExternalSyntheticLambda0 -> com.inseye.unitysdk.a:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$0.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$0.onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+      # {"id":"com.android.tools.r8.synthesized"}
+com.inseye.unitysdk.UnitySDK$$ExternalSyntheticLambda1 -> com.inseye.unitysdk.c:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$1.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$1.onNullBinding(android.content.ComponentName) -> onNullBinding
+      # {"id":"com.android.tools.r8.synthesized"}
+com.inseye.unitysdk.UnitySDK$$ExternalSyntheticLambda10 -> com.inseye.unitysdk.b:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$8669f7b2027e21e4c49c7015c883fcc7e8d764027574ae32cb29a831d6a61867$3.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$8669f7b2027e21e4c49c7015c883fcc7e8d764027574ae32cb29a831d6a61867$3.onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+      # {"id":"com.android.tools.r8.synthesized"}
+com.inseye.unitysdk.UnitySDK$$ExternalSyntheticLambda2 -> com.inseye.unitysdk.d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$2.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$2.onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+      # {"id":"com.android.tools.r8.synthesized"}
+com.inseye.unitysdk.UnitySDK$$ExternalSyntheticLambda3 -> com.inseye.unitysdk.e:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$3.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$3.onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+      # {"id":"com.android.tools.r8.synthesized"}
+com.inseye.unitysdk.UnitySDK$$ExternalSyntheticLambda4 -> com.inseye.unitysdk.f:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$4.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$4.onBindingDied(android.content.ComponentName) -> onBindingDied
+      # {"id":"com.android.tools.r8.synthesized"}
+com.inseye.unitysdk.UnitySDK$$ExternalSyntheticLambda5 -> com.inseye.unitysdk.g:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$5.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$32c643fe94d981977e9be3428873e40821df085c1250936d0e933019418f6044$5.onNullBinding(android.content.ComponentName) -> onNullBinding
+      # {"id":"com.android.tools.r8.synthesized"}
+com.inseye.unitysdk.UnitySDK$$ExternalSyntheticLambda6 -> com.inseye.unitysdk.h:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$3b2798bbbe69b963fce30b5e1c6ca5636a122997addc00d8da6fb9e32e96204b$0.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$3b2798bbbe69b963fce30b5e1c6ca5636a122997addc00d8da6fb9e32e96204b$0.CalibrationStatusChanged(com.inseye.unitysdk.CalibrationStatus,com.inseye.unitysdk.CalibrationStatus) -> CalibrationStatusChanged
+      # {"id":"com.android.tools.r8.synthesized"}
+com.inseye.unitysdk.UnitySDK$$ExternalSyntheticLambda7 -> com.inseye.unitysdk.i:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$8669f7b2027e21e4c49c7015c883fcc7e8d764027574ae32cb29a831d6a61867$0.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$8669f7b2027e21e4c49c7015c883fcc7e8d764027574ae32cb29a831d6a61867$0.onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+      # {"id":"com.android.tools.r8.synthesized"}
+com.inseye.unitysdk.UnitySDK$$ExternalSyntheticLambda8 -> com.inseye.unitysdk.j:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$8669f7b2027e21e4c49c7015c883fcc7e8d764027574ae32cb29a831d6a61867$1.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$8669f7b2027e21e4c49c7015c883fcc7e8d764027574ae32cb29a831d6a61867$1.onBindingDied(android.content.ComponentName) -> onBindingDied
+      # {"id":"com.android.tools.r8.synthesized"}
+com.inseye.unitysdk.UnitySDK$$ExternalSyntheticLambda9 -> com.inseye.unitysdk.k:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$8669f7b2027e21e4c49c7015c883fcc7e8d764027574ae32cb29a831d6a61867$2.<init>() -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void com.inseye.unitysdk.UnitySDK$$InternalSyntheticLambda$1$8669f7b2027e21e4c49c7015c883fcc7e8d764027574ae32cb29a831d6a61867$2.onNullBinding(android.content.ComponentName) -> onNullBinding
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.C0 -> com.unity3d.player.C0:
+    void -$$Nest$fputb(com.unity3d.player.C0,boolean) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.HFPStatus -> com.unity3d.player.HFPStatus:
+    boolean -$$Nest$fgetc(com.unity3d.player.HFPStatus) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.media.AudioManager -$$Nest$fgetd(com.unity3d.player.HFPStatus) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputf(com.unity3d.player.HFPStatus,int) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.HFPStatus) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.L0 -> com.unity3d.player.L0:
+    com.unity3d.player.UnityPlayer -$$Nest$fgeta(com.unity3d.player.L0) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.content.Context -$$Nest$fgetb(com.unity3d.player.L0) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.K0 -$$Nest$fgetc(com.unity3d.player.L0) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.concurrent.Semaphore -$$Nest$fgetd(com.unity3d.player.L0) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.concurrent.locks.ReentrantLock -$$Nest$fgete(com.unity3d.player.L0) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.D0 -$$Nest$fgetf(com.unity3d.player.L0) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$fgeti(com.unity3d.player.L0) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputf(com.unity3d.player.L0,com.unity3d.player.D0) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputg(com.unity3d.player.L0,int) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputi(com.unity3d.player.L0,boolean) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.NetworkConnectivity -> com.unity3d.player.NetworkConnectivity:
+    void -$$Nest$fputa(com.unity3d.player.NetworkConnectivity,int) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.PermissionFragment -> com.unity3d.player.PermissionFragment:
+    void -$$Nest$mreportAllDenied(com.unity3d.player.PermissionFragment,java.lang.String[]) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.ReflectionHelper -> com.unity3d.player.ReflectionHelper:
+    long -$$Nest$sfgetb() -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$smnativeProxyFinalize(long) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object -$$Nest$smnativeProxyInvoke(long,java.lang.String,java.lang.Object[]) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$smnativeProxyJNIFreeGCHandle(long) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$smnativeProxyLogJNIInvokeException(long) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
+    void -$$Nest$mnativeSendSurfaceChangedEvent(com.unity3d.player.UnityPlayer) -> A
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetInputArea(com.unity3d.player.UnityPlayer,int,int,int,int) -> B
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetInputSelection(com.unity3d.player.UnityPlayer,int,int) -> C
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetInputString(com.unity3d.player.UnityPlayer,java.lang.String) -> D
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetKeyboardIsVisible(com.unity3d.player.UnityPlayer,boolean) -> E
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSetLaunchURL(com.unity3d.player.UnityPlayer,java.lang.String) -> F
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSoftInputCanceled(com.unity3d.player.UnityPlayer) -> G
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSoftInputClosed(com.unity3d.player.UnityPlayer) -> H
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeSoftInputLostFocus(com.unity3d.player.UnityPlayer) -> I
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mqueueDestroy(com.unity3d.player.UnityPlayer) -> J
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$msendSurfaceChangedEvent(com.unity3d.player.UnityPlayer) -> K
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mshutdown(com.unity3d.player.UnityPlayer) -> L
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mupdateGLDisplay(com.unity3d.player.UnityPlayer,int,android.view.Surface) -> M
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.app.Activity -$$Nest$fgetmActivity(com.unity3d.player.UnityPlayer) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.content.Context -$$Nest$fgetmContext(com.unity3d.player.UnityPlayer) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.view.SurfaceView -$$Nest$fgetmGlView(com.unity3d.player.UnityPlayer) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$fgetmInitialScreenOrientation(com.unity3d.player.UnityPlayer) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$fgetmMainDisplayOverride(com.unity3d.player.UnityPlayer) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    int -$$Nest$fgetmNaturalOrientation(com.unity3d.player.UnityPlayer) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.w -$$Nest$fgetm_PersistentUnitySurface(com.unity3d.player.UnityPlayer) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.a.e -$$Nest$fgetm_SplashScreen(com.unity3d.player.UnityPlayer) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.IUnityPlayerLifecycleEvents -$$Nest$fgetm_UnityPlayerLifecycleEvents(com.unity3d.player.UnityPlayer) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputmQuitting(com.unity3d.player.UnityPlayer,boolean) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputmVideoPlayerProxy(com.unity3d.player.UnityPlayer,com.unity3d.player.L0) -> k
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputm_SplashScreen(com.unity3d.player.UnityPlayer,com.unity3d.player.a.e) -> l
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mDisableStaticSplashScreen(com.unity3d.player.UnityPlayer) -> m
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mfinish(com.unity3d.player.UnityPlayer) -> n
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mgetAutoReportFullyDrawnEnabled(com.unity3d.player.UnityPlayer) -> o
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mgetSplashEnabled(com.unity3d.player.UnityPlayer) -> p
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeFocusChanged(com.unity3d.player.UnityPlayer,boolean) -> q
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mnativeIsAutorotationOn(com.unity3d.player.UnityPlayer) -> r
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeLowMemory(com.unity3d.player.UnityPlayer) -> s
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeMuteMasterAudio(com.unity3d.player.UnityPlayer,boolean) -> t
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeOrientationChanged(com.unity3d.player.UnityPlayer,int,int) -> u
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mnativePause(com.unity3d.player.UnityPlayer) -> v
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeRecreateGfxState(com.unity3d.player.UnityPlayer,int,android.view.Surface) -> w
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$mnativeRender(com.unity3d.player.UnityPlayer) -> x
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeReportKeyboardConfigChanged(com.unity3d.player.UnityPlayer) -> y
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mnativeResume(com.unity3d.player.UnityPlayer) -> z
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.a.a -> d.a:
+com.unity3d.player.a.b -> d.b:
+com.unity3d.player.a.c -> d.c:
+com.unity3d.player.a.d -> d.d:
+com.unity3d.player.a.e -> d.e:
+com.unity3d.player.h -> com.unity3d.player.h:
+    com.google.android.play.core.assetpacks.AssetPackManager -$$Nest$fgeta(com.unity3d.player.h) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.HashSet -$$Nest$fgetb(com.unity3d.player.h) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object -$$Nest$fgetc(com.unity3d.player.h) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputc(com.unity3d.player.h,java.lang.Object) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    com.unity3d.player.h -$$Nest$sfgetd() -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.q -> com.unity3d.player.q:
+    com.unity3d.player.a.b -$$Nest$fgeta(com.unity3d.player.q) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.hardware.camera2.CameraDevice -$$Nest$fgetb(com.unity3d.player.q) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.util.Range -$$Nest$fgetn(com.unity3d.player.q) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.media.ImageReader -$$Nest$fgeto(com.unity3d.player.q) -> d
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.media.Image -$$Nest$fgetp(com.unity3d.player.q) -> e
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.hardware.camera2.CaptureRequest$Builder -$$Nest$fgetq(com.unity3d.player.q) -> f
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.lang.Object -$$Nest$fgets(com.unity3d.player.q) -> g
+      # {"id":"com.android.tools.r8.synthesized"}
+    android.view.Surface -$$Nest$fgetv(com.unity3d.player.q) -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputb(com.unity3d.player.q,android.hardware.camera2.CameraDevice) -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputp(com.unity3d.player.q,android.media.Image) -> j
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputq(com.unity3d.player.q,android.hardware.camera2.CaptureRequest$Builder) -> k
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputr(com.unity3d.player.q,android.hardware.camera2.CameraCaptureSession) -> l
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.q,android.hardware.camera2.CameraDevice) -> m
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.q,java.lang.Object) -> n
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$mg(com.unity3d.player.q) -> o
+      # {"id":"com.android.tools.r8.synthesized"}
+    java.util.concurrent.Semaphore -$$Nest$sfgetD() -> p
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.v0 -> com.unity3d.player.v0:
+    void <init>(com.unity3d.player.UnityPlayer,com.unity3d.player.v0-IA) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.v0-IA -> com.unity3d.player.a1:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.y -> com.unity3d.player.y:
+    int -$$Nest$fgetd(com.unity3d.player.y) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.y0 -> com.unity3d.player.y0:
+    void <init>(com.unity3d.player.UnityPlayer,com.unity3d.player.y0-IA) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$ma(com.unity3d.player.y0,com.unity3d.player.w0) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.y0-IA -> com.unity3d.player.b1:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.z -> com.unity3d.player.z:
+    long -$$Nest$fgeta(com.unity3d.player.z) -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    boolean -$$Nest$fgetb(com.unity3d.player.z) -> b
+      # {"id":"com.android.tools.r8.synthesized"}
+    void -$$Nest$fputa(com.unity3d.player.z,long) -> c
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.z0 -> com.unity3d.player.z0:
+    void <init>(com.unity3d.player.UnityPlayer,com.unity3d.player.z0-IA) -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+com.unity3d.player.z0-IA -> com.unity3d.player.c1:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
